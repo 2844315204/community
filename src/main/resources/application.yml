@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    cache: false  #模板引擎缓存关闭
+
+mybatis:
+  mapper-locations: classpath*:static/mybatis/*Mapper.xml
+  type-aliases-package: com.lxn.demo2.bean
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+
+#pagehelper分页插件配置
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql
