@@ -14,4 +14,14 @@ public class UserServiceImpl implements UserService{
     public int insertUser(User user) {
         return mapper.insertUser(user);
     }
+
+    @Override
+    public User selectToken(String token) {
+        return mapper.selectToken(token);
+    }
+
+    @Override
+    public User findById(Integer id) {
+        return mapper.findById(id);
+    }
 }

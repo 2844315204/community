@@ -11,7 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 @Controller
@@ -33,7 +35,8 @@ public class AuthorController {
     @GetMapping("/callback")
     public String callback(@RequestParam(name = "code")String code,
                            @RequestParam(name = "state")String state,
-                           HttpServletRequest request){
+                           HttpServletRequest request,
+                           HttpServletResponse response){
 //        1.获取access_token值
         AccessToken accessToken = new AccessToken();
         accessToken.setClient_id(clientId);
@@ -44,11 +47,12 @@ public class AuthorController {
         String token = gitHubProvider.getAccessToken(accessToken);
 //        获取用户名字
         GithubUser githubUser = gitHubProvider.githubUser(token);
-        if (githubUser!=null){
+        if (githubUser!=null && githubUser.getId()!=null){
 
             User user = new User();
 //            获取随机token
-            user.setToken(UUID.randomUUID().toString());
+            String token1 = UUID.randomUUID().toString();
+            user.setToken(token1);
 //            获取github的名字
             user.setName(githubUser.getName());
 //             github的用户名(github的id)
@@ -57,9 +61,11 @@ public class AuthorController {
             user.setGmtCreate(System.currentTimeMillis());
 //            结束时间的毫秒数
             user.setGmtModified(user.getGmtCreate());
+            user.setAvatarUrl(githubUser.getAvatar_url());
+
             userService.insertUser(user);
-//            登陆成功 写session和cookie
-            request.getSession().setAttribute("githubUser",githubUser);
+//          添加一个自定义cookie
+            response.addCookie(new Cookie("token",token1));
             return "redirect:/";
         }else {
 //            登录失败

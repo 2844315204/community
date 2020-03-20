@@ -2,14 +2,14 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>问答社区</title>
+    <title>发布问题</title>
     <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}" href="/static/css/bootstrap.css">
     <link rel="stylesheet" th:href="@{/static/css/bootstrap-theme.css}" href="/static/css/bootstrap-theme.css">
     <link rel="stylesheet" th:href="@{/static/css/community.css}" href="/static/css/community.css">
     <script src="/static/js/jquery-3.4.1.min.js" th:src="@{/static/js/jquery-3.4.1.min.js}"></script>
     <script src="/static/js/bootstrap.min.js" th:src="@{/static/js/bootstrap.min.js}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    </head>
+</head>
 <body>
 
 <!--表头-->
@@ -18,7 +18,7 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed"
                     data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="icon-bar" href="#">问答社区</span>
+                <span class="icon-bar">问答社区</span>
             </button>
             <a class="navbar-brand" href="#">问答社区</a>
         </div>
@@ -52,6 +52,7 @@
     </div>
 </nav>
 
+
 <!--身体-->
 <div class="container-fluid main" >
     <div class="row">
@@ -59,31 +60,33 @@
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 win-left">
             <h2><span class="glyphicon glyphicon-plus" aria-hidden="true">发起</span></h2>
             <hr>
-            <div class="media" th:each="question:${questions}">
-                <div class="media-left">
-                    <a href="#">
-                        <img class="media-object" th:src="${question.user.avatarUrl}">
-                    </a>
+            <form action="/publish" method="post">
+                <div class="form-group">
+                    <label for="title">问题标题（简明扼要）</label>
+                    <input type="text" class="form-control" th:value="${title}" name="title" id="title" placeholder="问题标题__">
                 </div>
-                <div class="media-body">
-                    <h4 class="media-heading" th:text="${question.title}"></h4>
-                        点击进入看<br>
-                    <span class="text-desc">
-                        <span th:text="${question.commentCount}"></span>个回复
-                        <span th:text="${question.viewCount}"></span>次浏览
-                        <span th:text="${#dates.format(question.gmtCreate,'dd MMM yyyy')}"></span>
-                    </span>
+                <div class="form-group">
+                    <label for="title">问题补充（必填，请参照右侧提示）</label>
+                    <textarea id="description" th:text="${description}"  name="description" class="form-control" rows="10" cols="30" ></textarea>
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label for="title">添加标签:</label>
+                    <input type="text" name="tag" th:value="${tag}" class="form-control" id="tag" placeholder="输入标签，以，号分隔">
+                </div>
+                <span class="alert alert-danger" th:if="${error != null}" th:text="${error}"></span>
+                <button type="submit" class="btn btn-success btn-publish">发布</button>
+            </form>
 
         </div>
         <!--右边窗体-->
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <h3>热门话题</h3>
-
+            <h3>发起问题指南</h3>
+            ● 问题描述：请用精简的语言描述您发布的问题，不超过25个字<br>
+            ● 问题补充：详细补充您的问题内容，并确保问题描述清晰直观，并提供一些相关资料：<br>
+            ● 选择标签：选择一个活多个合适的标签，用逗号隔开，每个标签不超过10个字。<br>
         </div>
     </div>
 </div>
-
 </body>
 </html>

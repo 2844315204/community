@@ -3,7 +3,15 @@
 <mapper namespace="com.lxn.community.community.mapper.UserMapper">
 
     <insert id="insertUser">
-        insert into user(account_id,name,token,gmt_create,gmt_modified)
-        values (#{accountId},#{name},#{token},#{gmtCreate},#{gmtModified})
+        insert into user(account_id,name,token,gmt_create,gmt_modified,avatar_url)
+        values (#{accountId},#{name},#{token},#{gmtCreate},#{gmtModified},#{avatarUrl})
     </insert>
+
+    <select id="selectToken" resultType="com.lxn.community.community.bean.User">
+        select  * from user where token=#{token}
+    </select>
+
+    <select id="findById" resultType="com.lxn.community.community.bean.User">
+        select *from user where id=#{id}
+    </select>
 </mapper>
