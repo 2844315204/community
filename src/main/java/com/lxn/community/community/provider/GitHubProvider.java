@@ -1,8 +1,8 @@
 package com.lxn.community.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.lxn.community.community.bean.AccessToken;
-import com.lxn.community.community.bean.GithubUser;
+import com.lxn.community.community.dto.AccessToken;
+import com.lxn.community.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

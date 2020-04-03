@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>问答社区</title>
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap-theme.css}" href="/static/css/bootstrap-theme.css">
+    <link rel="stylesheet" th:href="@{/static/css/community.css}" href="/static/css/community.css">
+    <script src="/static/js/jquery-3.4.1.min.js" th:src="@{/static/js/jquery-3.4.1.min.js}"></script>
+    <script src="/static/js/bootstrap.min.js" th:src="@{/static/js/bootstrap.min.js}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+<body>
+
+<!--表头-->
+<div th:replace="~{navigation :: nav}"></div>
+
+<!--身体-->
+<div class="jumbotron">
+    <h1>页面出错</h1>
+    <p th:text="${message}">出错</p>
+    <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
+</div>
+
+</body>
+</html>

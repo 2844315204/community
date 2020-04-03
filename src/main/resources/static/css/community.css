@@ -22,3 +22,68 @@ body{
     font-weight: normal;
     color: #999;
 }
+.profile .section{
+    margin-top: 15px;
+
+}
+.comments{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+.community-menu{
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.comment-sp{
+    margin-top: 0;
+}
+.sub-comments{
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.menu{
+    color: #999;
+}
+.menu .icon{
+    margin-left: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu .comment-icon{
+    margin-left: 6px;
+    font-size: 15px;
+}
+.question-wechat{
+    width: 100%;
+}
+.tagclass{
+    margin: 5px;
+    display: inline-block;
+}
+
+.question-related{
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 0px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.question-tag{
+    margin-right: 5px;
+}
+
+.menu .active{
+    color: #499ef3;
+}
+.menu .icon:hover{
+    color: #499ef3;
+}
+.question-title{
+    margin-top: 25px;
+}

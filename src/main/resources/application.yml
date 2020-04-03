@@ -1,5 +1,6 @@
 server:
   port: 8080
+
 spring:
   datasource:
     username: root
@@ -9,6 +10,10 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
   thymeleaf:
     cache: false  #模板引擎缓存关闭
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
 
 mybatis:
   mapper-locations: classpath*:static/mybatis/*Mapper.xml
@@ -16,7 +21,11 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 
-
+aliyun:
+  accessKeySecret: PqY1CXcUbcxFc3io0FWg8hsmO88qID
+  accessKeyId: LTAI4FfU4GHiSg2UaMZkwGYR
+  endpoint: oss-cn-beijing.aliyuncs.com
+  bucketName: commenity
 
 
 #pagehelper分页插件配置
@@ -25,3 +34,8 @@ mybatis:
 #  reasonable: true
 #  support-methods-arguments: true
 #  params: count=countSql
+logging:
+  file: logs/community.log
+  level:
+    root: info
+
