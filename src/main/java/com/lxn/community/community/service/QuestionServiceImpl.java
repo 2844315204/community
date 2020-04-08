@@ -38,7 +38,9 @@ public class QuestionServiceImpl {
             String[] searchs = StringUtils.split(search, " ");
             search=Arrays.stream(searchs).collect(Collectors.joining("|"));
         }
-
+        if (search==""){
+            search=null;
+        }
         PageDto pageDto = new PageDto();
         Integer totalPage;
         QuestionQueryDto questionQueryDto = new QuestionQueryDto();

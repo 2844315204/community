@@ -34,7 +34,7 @@
           >
      select count(*) from question
      <where>
-       <if test="search!=null">
+       <if test="search != null  ">
           and title regexp #{search}
        </if>
      </where>
@@ -43,7 +43,7 @@
           resultMap="BaseResultMap">
      select * from question
      <where>
-       <if test="search!=null">
+       <if test="search != null">
           and title regexp #{search}
        </if>
      </where>

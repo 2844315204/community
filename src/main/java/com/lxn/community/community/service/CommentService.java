@@ -63,7 +63,8 @@ public class CommentService {
 //          增加评论数
             Comment parentComment = new Comment();
             parentComment.setId(comment.getParentId());
-            parentComment.setCommentCount(1);
+            parentComment.setCommentCount
+                    (1);
             commentExMapper.inextCommentCount(parentComment);
 
 //            创建通知

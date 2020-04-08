@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap-theme.css}" href="/static/css/bootstrap-theme.css">
+    <link rel="stylesheet" th:href="@{/static/css/community.css}" href="/static/css/community.css">
+    <script src="/static/js/jquery-3.4.1.min.js" th:src="@{/static/js/jquery-3.4.1.min.js}"></script>
+    <script src="/static/js/bootstrap.min.js" th:src="@{/static/js/bootstrap.min.js}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+<body>
+<div th:fragment="page_helpers">
+    <nav aria-label="Page navigation" style="text-align: center">
+        <ul class="pagination">
+            <!--首页-->
+            <li th:if="${pageInfo.showFirstPage}">
+                <a th:href="@{${#httpServletRequest.getRequestURI()}(page=1,search=${search})}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <!--上一页-->
+            <li th:if="${pageInfo.showFirstPage}">
+                <a th:href="@{${#httpServletRequest.getRequestURI()}(page=${pageInfo.page - 1},search=${search})}" aria-label="Next">
+                    <span aria-hidden="true">&lt;</span>
+                </a>
+            </li>
+            <!--中间数量-->
+            <li th:class="${pageInfo.page == page}?'active' : ''" th:each="page:${pageInfo.pages}" >
+                <a th:href="@{${#httpServletRequest.getRequestURI()}(page=${page},search=${search})}" th:text="${page}"></a>
+            </li>
+            <!--下一页-->
+            <li th:if="${pageInfo.showNext}">
+                <a th:href="@{${#httpServletRequest.getRequestURI()}(page=${pageInfo.page+1},search=${search})}" aria-label="Next">
+                    <span aria-hidden="true">&gt;</span>
+                </a>
+            </li>
+            <!--尾页-->
+            <li th:if="${pageInfo.showEndPage}">
+                <a th:href="@{${#httpServletRequest.getRequestURI()}(page=${pageInfo.totalPage},search=${search})}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+</body>
+</html>

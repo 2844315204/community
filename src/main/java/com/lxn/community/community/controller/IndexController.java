@@ -1,6 +1,5 @@
 package com.lxn.community.community.controller;
 
-import com.lxn.community.community.bean.User;
 import com.lxn.community.community.dto.PageDto;
 import com.lxn.community.community.service.QuestionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +8,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class IndexController {
@@ -19,7 +17,7 @@ public class IndexController {
     public String index( Model model,
                         @RequestParam( value = "page", defaultValue = "1" ) Integer page,
                         @RequestParam( value = "search",required = false) String search,
-                        @RequestParam( value = "size", defaultValue = "5" ) Integer size){
+                        @RequestParam( value = "size", defaultValue = "7" ) Integer size){
         PageDto pageInfo= questionService.listQuestion(search,page,size);
         model.addAttribute("pageInfo",pageInfo);
         model.addAttribute("search",search);

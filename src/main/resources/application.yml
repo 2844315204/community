@@ -39,3 +39,8 @@ logging:
   level:
     root: info
 
+github:
+  client_id: b8bf759495c1fc7dd36f
+  redirect_uri: http://localhost:8080/callback
+
+
