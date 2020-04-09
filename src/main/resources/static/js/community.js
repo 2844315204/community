@@ -92,7 +92,7 @@ function addBody(result,comments) {
             "class":"menu"
         }).append($("<span/>",{
             "class":"pull-right",
-            "html":cont.gmtCreate
+            "html":moment(cont.gmtCreate).format('YYYY-MM-DD')
         })));
         var mediaHr=("<hr/>",{
             "class":"col-lg-12 col-md-12 col-sm-12 col-xs-12 comment-sp"
