@@ -55,7 +55,9 @@
                     </li>
                     <li th:if="${session.user == null}">
                          <a th:href="@{https://github.com/login/oauth/authorize
-                        (client_id=${@environment.getProperty('github.client_id')},redirect_uri=${@environment.getProperty('github.redirect_uri')},scope='user',state=1)}">登录</a>
+                        (client_id=${@environment.getProperty('github.client_id')}
+                        ,redirect_uri=${@environment.getProperty('github.redirect_uri')}
+                        ,scope='user',state=1)}">登录</a>
                     </li>
                 </ul>
             </div>

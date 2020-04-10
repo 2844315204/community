@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     username: root
-    password: 123
-    url: jdbc:mysql://localhost:3306/community?serverTimezone=UTC
+    password: q58565254q
+    url: jdbc:mysql://cdb-1yoat894.cd.tencentcdb.com:10105/community?serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   thymeleaf:
@@ -17,7 +17,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath*:static/mybatis/*Mapper.xml
-  type-aliases-package: com.lxn.demo2.bean
+  type-aliases-package: com.lxn.community.community.bean
   configuration:
     map-underscore-to-camel-case: true
 
@@ -27,13 +27,6 @@ aliyun:
   endpoint: oss-cn-beijing.aliyuncs.com
   bucketName: commenity
 
-
-#pagehelper分页插件配置
-#pagehelper:
-#  helper-dialect: mysql
-#  reasonable: true
-#  support-methods-arguments: true
-#  params: count=countSql
 logging:
   file: logs/community.log
   level:
@@ -41,6 +34,6 @@ logging:
 
 github:
   client_id: b8bf759495c1fc7dd36f
-  redirect_uri: http://localhost:8080/callback
+  redirect_uri: http://101.200.82.160/callback
 
 

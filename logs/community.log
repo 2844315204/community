@@ -1,495 +1,75 @@
-2020-04-08 15:10:13.233  INFO 7420 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 7420 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 15:10:13.310  INFO 7420 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 15:10:14.434  INFO 7420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 15:10:14.434  INFO 7420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 15:10:29.961  INFO 7420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 15:10:30.053  INFO 7420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 15:10:30.054  INFO 7420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 15:10:30.815  INFO 7420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 15:10:30.816  INFO 7420 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 16381 ms
-2020-04-08 15:10:36.237  INFO 7420 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 15:10:36.536  INFO 7420 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 15:10:38.022  INFO 7420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 15:10:38.279  INFO 7420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 15:10:38.345  INFO 7420 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 36.784 seconds (JVM running for 53.983)
-2020-04-08 15:10:38.789  INFO 7420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 15:10:38.791  INFO 7420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 15:10:38.807  INFO 7420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-04-08 15:10:39.651  INFO 7420 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:04:43.587  INFO 4436 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 4436 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:04:43.591  INFO 4436 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:04:43.702  INFO 4436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:04:43.703  INFO 4436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:04:45.076  INFO 4436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:04:45.085  INFO 4436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:04:45.085  INFO 4436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:04:45.197  INFO 4436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:04:45.197  INFO 4436 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1493 ms
-2020-04-08 16:04:45.921  INFO 4436 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:04:45.993  INFO 4436 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:04:46.246  INFO 4436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:04:46.321  INFO 4436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:04:46.325  INFO 4436 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.452 seconds (JVM running for 5.621)
-2020-04-08 16:04:57.298  INFO 4436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:04:57.298  INFO 4436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:04:57.306  INFO 4436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-04-08 16:04:57.427  INFO 4436 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:06:46.955  WARN 4436 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:07:07.336  WARN 4436 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:07:20.424  WARN 4436 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:08:36.241  WARN 4436 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:09:05.573  WARN 4436 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:09:11.030  WARN 4436 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:09:25.239  INFO 5896 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 5896 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:09:25.242  INFO 5896 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:09:25.325  INFO 5896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:09:25.325  INFO 5896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:09:26.962  INFO 5896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:09:26.971  INFO 5896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:09:26.972  INFO 5896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:09:27.090  INFO 5896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:09:27.090  INFO 5896 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1764 ms
-2020-04-08 16:09:27.913  INFO 5896 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:09:27.987  INFO 5896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:09:28.218  INFO 5896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:09:28.273  INFO 5896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:09:28.277  INFO 5896 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.712 seconds (JVM running for 7.903)
-2020-04-08 16:09:36.178  INFO 5896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:09:36.178  INFO 5896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:09:36.184  INFO 5896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 16:09:36.326  INFO 5896 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:09:40.075  WARN 5896 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:12:04.480  WARN 5896 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:13:19.617  WARN 5896 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:17:44.961  INFO 7952 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 7952 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:17:44.970  INFO 7952 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:17:45.070  INFO 7952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:17:45.071  INFO 7952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:17:47.235  INFO 7952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:17:47.247  INFO 7952 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:17:47.247  INFO 7952 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:17:47.393  INFO 7952 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:17:47.393  INFO 7952 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2322 ms
-2020-04-08 16:17:48.597  INFO 7952 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:17:48.741  INFO 7952 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:17:49.094  INFO 7952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:17:49.181  INFO 7952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:17:49.187  INFO 7952 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 5.057 seconds (JVM running for 9.759)
-2020-04-08 16:17:57.259  INFO 7952 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:17:57.259  INFO 7952 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:17:57.267  INFO 7952 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-04-08 16:17:57.432  INFO 7952 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:22:36.800  WARN 7952 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-### The error may exist in file [E:\community\target\classes\static\mybatis\QuestionExMapper.xml]
-### The error may involve com.lxn.community.community.mapper.QuestionExMapper.countBySearch-Inline
-### The error occurred while setting parameters
-### SQL: select count(*) from question       WHERE  title regexp ?
-### Cause: java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Got error 'empty (sub)expression' from regexp]
-2020-04-08 16:22:47.881  INFO 11328 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 11328 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:22:47.887  INFO 11328 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:22:48.043  INFO 11328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:22:48.044  INFO 11328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:22:50.051  INFO 11328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:22:50.061  INFO 11328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:22:50.062  INFO 11328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:22:50.276  INFO 11328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:22:50.276  INFO 11328 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2231 ms
-2020-04-08 16:22:51.334  INFO 11328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:22:51.452  INFO 11328 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:22:51.779  INFO 11328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:22:51.864  INFO 11328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:22:51.868  INFO 11328 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 4.947 seconds (JVM running for 7.611)
-2020-04-08 16:23:02.572  INFO 11328 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:23:02.573  INFO 11328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:23:02.582  INFO 11328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2020-04-08 16:23:02.748  INFO 11328 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:24:02.732  INFO 10092 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 10092 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:24:02.737  INFO 10092 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:24:02.836  INFO 10092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:24:02.837  INFO 10092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:24:06.070  INFO 10092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:24:06.081  INFO 10092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:24:06.082  INFO 10092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:24:06.407  INFO 10092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:24:06.407  INFO 10092 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3570 ms
-2020-04-08 16:24:08.517  INFO 10092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:24:08.729  INFO 10092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:24:09.084  INFO 10092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:24:09.161  INFO 10092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:24:09.165  INFO 10092 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 8.045 seconds (JVM running for 14.283)
-2020-04-08 16:24:38.630  INFO 10092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:24:38.630  INFO 10092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:24:38.636  INFO 10092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 16:24:38.757  INFO 10092 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:38:28.126  INFO 13684 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 13684 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 16:38:28.132  INFO 13684 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 16:38:28.228  INFO 13684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 16:38:28.228  INFO 13684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 16:38:29.571  INFO 13684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 16:38:29.581  INFO 13684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 16:38:29.582  INFO 13684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 16:38:29.725  INFO 13684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 16:38:29.725  INFO 13684 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1496 ms
-2020-04-08 16:38:30.387  INFO 13684 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 16:38:30.457  INFO 13684 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 16:38:30.686  INFO 13684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 16:38:30.733  INFO 13684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 16:38:30.738  INFO 13684 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.355 seconds (JVM running for 5.297)
-2020-04-08 16:38:37.408  INFO 13684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 16:38:37.408  INFO 13684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 16:38:37.415  INFO 13684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 16:38:37.575  INFO 13684 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 16:52:00.712  WARN 13684 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
-2020-04-08 16:52:28.608  WARN 13684 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
-2020-04-08 16:52:59.750  WARN 13684 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
-2020-04-08 17:01:15.351  INFO 8536 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 8536 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 17:01:15.355  INFO 8536 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 17:01:15.466  INFO 8536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 17:01:15.466  INFO 8536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 17:01:16.950  INFO 8536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 17:01:16.960  INFO 8536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 17:01:16.960  INFO 8536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 17:01:17.073  INFO 8536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 17:01:17.074  INFO 8536 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1608 ms
-2020-04-08 17:01:17.834  INFO 8536 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:01:17.911  INFO 8536 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 17:01:18.148  INFO 8536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 17:01:18.205  INFO 8536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 17:01:18.209  INFO 8536 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.593 seconds (JVM running for 5.53)
-2020-04-08 17:01:57.242  INFO 8536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 17:01:57.242  INFO 8536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 17:01:57.248  INFO 8536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 17:01:57.423  INFO 8536 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 17:02:07.964 ERROR 8536 --- [http-nio-8080-exec-2] c.l.c.c.controller.AuthorController      : callback get github error,{}null
-2020-04-08 17:03:23.519  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 10488 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 17:03:23.522  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 17:03:23.617  INFO 10488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 17:03:23.617  INFO 10488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 17:03:25.061  INFO 10488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 17:03:25.070  INFO 10488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 17:03:25.070  INFO 10488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 17:03:25.184  INFO 10488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 17:03:25.184  INFO 10488 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1567 ms
-2020-04-08 17:03:25.963  INFO 10488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:03:26.045  INFO 10488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 17:03:26.345  INFO 10488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 17:03:26.417  INFO 10488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 17:03:26.421  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.657 seconds (JVM running for 5.771)
-2020-04-08 17:03:33.084  INFO 10488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 17:03:33.084  INFO 10488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 17:03:33.092  INFO 10488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2020-04-08 17:03:33.194  INFO 10488 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 17:53:53.610  INFO 10488 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:53:53.628  INFO 10488 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-04-08 17:53:54.460  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 10488 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 17:53:54.461  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 17:53:55.627  INFO 10488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 17:53:55.629  INFO 10488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 17:53:55.630  INFO 10488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 17:53:55.674  INFO 10488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 17:53:55.674  INFO 10488 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1203 ms
-2020-04-08 17:53:56.160  INFO 10488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:53:56.197  INFO 10488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 17:53:56.432  INFO 10488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 17:53:56.452  INFO 10488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 17:53:56.454  INFO 10488 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 2.073 seconds (JVM running for 3035.804)
-2020-04-08 17:53:56.456  INFO 10488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-04-08 17:54:02.162  INFO 10488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 17:54:02.164  INFO 10488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 17:54:02.171  INFO 10488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2020-04-08 17:54:02.289 ERROR 10488 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
-
-org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162]
-Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "pageInfo.data" (template: "index" - line 34, col 32)
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	... 48 common frames omitted
-Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "pageInfo.data" (template: "index" - line 34, col 32)
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	... 50 common frames omitted
-Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'data' cannot be found on null
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	... 70 common frames omitted
-
-2020-04-08 17:54:02.293 ERROR 10488 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
-
-org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'data' cannot be found on null
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_162]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_162]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.31.jar:9.0.31]
-	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_162]
-
-2020-04-08 17:54:59.615  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 10384 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 17:54:59.622  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 17:54:59.745  INFO 10384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 17:54:59.746  INFO 10384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 17:55:01.037  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 17:55:01.046  INFO 10384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 17:55:01.047  INFO 10384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 17:55:01.190  INFO 10384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 17:55:01.190  INFO 10384 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1444 ms
-2020-04-08 17:55:01.854  INFO 10384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:55:01.922  INFO 10384 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 17:55:02.151  INFO 10384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 17:55:02.197  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 17:55:02.200  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.25 seconds (JVM running for 5.32)
-2020-04-08 17:55:07.310  INFO 10384 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 17:55:07.311  INFO 10384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 17:55:07.318  INFO 10384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 17:55:07.436  INFO 10384 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 17:59:21.790  INFO 10384 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:59:21.800  INFO 10384 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-04-08 17:59:22.685  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 10384 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 17:59:22.686  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 17:59:23.401  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 17:59:23.402  INFO 10384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 17:59:23.403  INFO 10384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 17:59:23.470  INFO 10384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 17:59:23.470  INFO 10384 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 775 ms
-2020-04-08 17:59:24.261  INFO 10384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 17:59:24.294  INFO 10384 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 17:59:24.525  INFO 10384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 17:59:24.554  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 17:59:24.555  INFO 10384 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 1.946 seconds (JVM running for 267.676)
-2020-04-08 17:59:24.558  INFO 10384 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-04-08 17:59:25.895  INFO 10384 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 17:59:25.896  INFO 10384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 17:59:25.900  INFO 10384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2020-04-08 17:59:25.925  INFO 10384 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
-2020-04-08 18:19:04.288 ERROR 10384 --- [http-nio-8080-exec-4] c.l.c.c.controller.AuthorController      : callback get github error,{}null
-2020-04-08 18:19:21.535 ERROR 10384 --- [http-nio-8080-exec-1] c.l.c.c.controller.AuthorController      : callback get github error,{}null
-2020-04-08 18:23:18.763  INFO 3936 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 3936 (E:\community\target\classes started by 28443 in E:\community)
-2020-04-08 18:23:18.767  INFO 3936 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
-2020-04-08 18:23:18.855  INFO 3936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-04-08 18:23:18.855  INFO 3936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-04-08 18:23:20.420  INFO 3936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-04-08 18:23:20.429  INFO 3936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-08 18:23:20.430  INFO 3936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-04-08 18:23:20.527  INFO 3936 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-08 18:23:20.527  INFO 3936 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1672 ms
-2020-04-08 18:23:21.307  INFO 3936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-08 18:23:21.379  INFO 3936 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-04-08 18:23:21.577  INFO 3936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-04-08 18:23:21.626  INFO 3936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-04-08 18:23:21.631  INFO 3936 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.603 seconds (JVM running for 6.991)
-2020-04-08 18:23:26.992  INFO 3936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-04-08 18:23:26.992  INFO 3936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-04-08 18:23:26.998  INFO 3936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-04-08 18:23:27.168  INFO 3936 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-04-08 18:23:33.770 ERROR 3936 --- [http-nio-8080-exec-2] c.l.c.c.controller.AuthorController      : callback get github error,{}null
+2020-04-09 18:57:25.938  INFO 7972 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 7972 (E:\community\target\classes started by 28443 in E:\community)
+2020-04-09 18:57:26.072  INFO 7972 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
+2020-04-09 18:57:26.572  INFO 7972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 18:57:26.572  INFO 7972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 18:57:32.379  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-09 18:57:32.402  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-09 18:57:32.403  INFO 7972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-09 18:57:32.667  INFO 7972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-09 18:57:32.667  INFO 7972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6094 ms
+2020-04-09 18:57:34.981  INFO 7972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 18:57:35.094  INFO 7972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-09 18:57:35.951  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-09 18:57:36.049  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 18:57:36.072  INFO 7972 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 27.449 seconds (JVM running for 76.583)
+2020-04-09 18:59:03.954  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 18:59:03.955  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-09 18:59:03.968  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-09 18:59:04.479  INFO 7972 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-09 18:59:17.120 ERROR 7972 --- [http-nio-8080-exec-5] c.l.c.c.controller.AuthorController      : callback get github error,{}null
+2020-04-09 18:59:34.772  INFO 4156 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 4156 (E:\community\target\classes started by 28443 in E:\community)
+2020-04-09 18:59:34.776  INFO 4156 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
+2020-04-09 18:59:34.889  INFO 4156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 18:59:34.889  INFO 4156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 18:59:36.385  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-09 18:59:36.404  INFO 4156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-09 18:59:36.405  INFO 4156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-09 18:59:36.599  INFO 4156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-09 18:59:36.600  INFO 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1711 ms
+2020-04-09 18:59:37.546  INFO 4156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 18:59:37.646  INFO 4156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-09 18:59:37.934  INFO 4156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-09 18:59:37.992  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 18:59:37.997  INFO 4156 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.947 seconds (JVM running for 6.022)
+2020-04-09 18:59:53.659  INFO 4156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 18:59:53.659  INFO 4156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-09 18:59:53.667  INFO 4156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-09 18:59:53.799  INFO 4156 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-09 19:14:38.465 ERROR 4156 --- [http-nio-8080-exec-8] c.l.c.c.controller.AuthorController      : callback get github error,{}null
+2020-04-09 19:15:57.667  INFO 5352 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 5352 (E:\community\target\classes started by 28443 in E:\community)
+2020-04-09 19:15:57.694  INFO 5352 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
+2020-04-09 19:15:57.782  INFO 5352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 19:15:57.782  INFO 5352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 19:15:59.233  INFO 5352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-09 19:15:59.274  INFO 5352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-09 19:15:59.274  INFO 5352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-09 19:15:59.372  INFO 5352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-09 19:15:59.372  INFO 5352 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1589 ms
+2020-04-09 19:16:00.087  INFO 5352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 19:16:00.161  INFO 5352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-09 19:16:00.349  INFO 5352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-09 19:16:00.408  INFO 5352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 19:16:00.412  INFO 5352 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.422 seconds (JVM running for 6.116)
+2020-04-09 19:16:05.389  INFO 5352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 19:16:05.389  INFO 5352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-09 19:16:05.399  INFO 5352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-09 19:16:07.975 ERROR 5352 --- [http-nio-8080-exec-1] c.l.c.c.controller.AuthorController      : callback get github error,{}null
+2020-04-09 19:16:08.111  INFO 5352 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-09 19:20:47.434  INFO 11484 --- [restartedMain] c.l.c.community.CommunityApplication     : Starting CommunityApplication on DESKTOP-MOHR2F2 with PID 11484 (E:\community\target\classes started by 28443 in E:\community)
+2020-04-09 19:20:47.439  INFO 11484 --- [restartedMain] c.l.c.community.CommunityApplication     : No active profile set, falling back to default profiles: default
+2020-04-09 19:20:47.516  INFO 11484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-09 19:20:47.516  INFO 11484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-09 19:20:48.819  INFO 11484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-09 19:20:48.829  INFO 11484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-09 19:20:48.830  INFO 11484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-09 19:20:48.965  INFO 11484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-09 19:20:48.965  INFO 11484 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1448 ms
+2020-04-09 19:20:49.623  INFO 11484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-09 19:20:49.697  INFO 11484 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-09 19:20:49.892  INFO 11484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-09 19:20:49.950  INFO 11484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-09 19:20:49.953  INFO 11484 --- [restartedMain] c.l.c.community.CommunityApplication     : Started CommunityApplication in 3.176 seconds (JVM running for 5.609)
+2020-04-09 19:22:17.145  INFO 11484 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-09 19:22:17.145  INFO 11484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-09 19:22:17.151  INFO 11484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-09 19:22:20.243  INFO 11484 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
