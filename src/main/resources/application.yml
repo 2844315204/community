@@ -6,7 +6,7 @@ spring:
     username: root
     password: q58565254q
     url: jdbc:mysql://cdb-1yoat894.cd.tencentcdb.com:10105/community?serverTimezone=UTC
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   thymeleaf:
     cache: false  #模板引擎缓存关闭
