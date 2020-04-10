@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     username: root
-    password: q58565254q
-    url: jdbc:mysql://cdb-1yoat894.cd.tencentcdb.com:10105/community?serverTimezone=UTC
+    password: 
+    url: 
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   thymeleaf:
@@ -21,11 +21,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 
-aliyun:
-  accessKeySecret: PqY1CXcUbcxFc3io0FWg8hsmO88qID
-  accessKeyId: LTAI4FfU4GHiSg2UaMZkwGYR
-  endpoint: oss-cn-beijing.aliyuncs.com
-  bucketName: commenity
+
 
 logging:
   file: logs/community.log
@@ -33,7 +29,7 @@ logging:
     root: info
 
 github:
-  client_id: b8bf759495c1fc7dd36f
+  client_id: 
   redirect_uri: http://101.200.82.160/callback
 
 
